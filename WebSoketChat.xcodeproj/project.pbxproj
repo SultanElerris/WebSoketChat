@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E43B5DBE1FE0548200353EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B5DBD1FE0548200353EE5 /* AppDelegate.swift */; };
+		E43B5DC01FE0548200353EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B5DBF1FE0548200353EE5 /* ViewController.swift */; };
+		E43B5DC31FE0548200353EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43B5DC11FE0548200353EE5 /* Main.storyboard */; };
+		E43B5DC51FE0548200353EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43B5DC41FE0548200353EE5 /* Assets.xcassets */; };
+		E43B5DC81FE0548200353EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43B5DC61FE0548200353EE5 /* LaunchScreen.storyboard */; };
+		E43B5DD31FE0548300353EE5 /* WebSoketChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B5DD21FE0548300353EE5 /* WebSoketChatTests.swift */; };
+		E43B5DDE1FE0548300353EE5 /* WebSoketChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B5DDD1FE0548300353EE5 /* WebSoketChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E43B5DCF1FE0548200353EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43B5DB21FE0548200353EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E43B5DB91FE0548200353EE5;
+			remoteInfo = WebSoketChat;
+		};
+		E43B5DDA1FE0548300353EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43B5DB21FE0548200353EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E43B5DB91FE0548200353EE5;
+			remoteInfo = WebSoketChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E43B5DBA1FE0548200353EE5 /* WebSoketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSoketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43B5DBD1FE0548200353EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E43B5DBF1FE0548200353EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E43B5DC21FE0548200353EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E43B5DC41FE0548200353EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E43B5DC71FE0548200353EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E43B5DC91FE0548200353EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43B5DCE1FE0548200353EE5 /* WebSoketChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSoketChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43B5DD21FE0548300353EE5 /* WebSoketChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSoketChatTests.swift; sourceTree = "<group>"; };
+		E43B5DD41FE0548300353EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43B5DD91FE0548300353EE5 /* WebSoketChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSoketChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43B5DDD1FE0548300353EE5 /* WebSoketChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSoketChatUITests.swift; sourceTree = "<group>"; };
+		E43B5DDF1FE0548300353EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43B5DB71FE0548200353EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43B5DCB1FE0548200353EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43B5DD61FE0548300353EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E43B5DB11FE0548200353EE5 = {
+			isa = PBXGroup;
+			children = (
+				E43B5DBC1FE0548200353EE5 /* WebSoketChat */,
+				E43B5DD11FE0548300353EE5 /* WebSoketChatTests */,
+				E43B5DDC1FE0548300353EE5 /* WebSoketChatUITests */,
+				E43B5DBB1FE0548200353EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E43B5DBB1FE0548200353EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43B5DBA1FE0548200353EE5 /* WebSoketChat.app */,
+				E43B5DCE1FE0548200353EE5 /* WebSoketChatTests.xctest */,
+				E43B5DD91FE0548300353EE5 /* WebSoketChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43B5DBC1FE0548200353EE5 /* WebSoketChat */ = {
+			isa = PBXGroup;
+			children = (
+				E43B5DBD1FE0548200353EE5 /* AppDelegate.swift */,
+				E43B5DBF1FE0548200353EE5 /* ViewController.swift */,
+				E43B5DC11FE0548200353EE5 /* Main.storyboard */,
+				E43B5DC41FE0548200353EE5 /* Assets.xcassets */,
+				E43B5DC61FE0548200353EE5 /* LaunchScreen.storyboard */,
+				E43B5DC91FE0548200353EE5 /* Info.plist */,
+			);
+			path = WebSoketChat;
+			sourceTree = "<group>";
+		};
+		E43B5DD11FE0548300353EE5 /* WebSoketChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E43B5DD21FE0548300353EE5 /* WebSoketChatTests.swift */,
+				E43B5DD41FE0548300353EE5 /* Info.plist */,
+			);
+			path = WebSoketChatTests;
+			sourceTree = "<group>";
+		};
+		E43B5DDC1FE0548300353EE5 /* WebSoketChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E43B5DDD1FE0548300353EE5 /* WebSoketChatUITests.swift */,
+				E43B5DDF1FE0548300353EE5 /* Info.plist */,
+			);
+			path = WebSoketChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E43B5DB91FE0548200353EE5 /* WebSoketChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43B5DE21FE0548300353EE5 /* Build configuration list for PBXNativeTarget "WebSoketChat" */;
+			buildPhases = (
+				E43B5DB61FE0548200353EE5 /* Sources */,
+				E43B5DB71FE0548200353EE5 /* Frameworks */,
+				E43B5DB81FE0548200353EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebSoketChat;
+			productName = WebSoketChat;
+			productReference = E43B5DBA1FE0548200353EE5 /* WebSoketChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E43B5DCD1FE0548200353EE5 /* WebSoketChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43B5DE51FE0548300353EE5 /* Build configuration list for PBXNativeTarget "WebSoketChatTests" */;
+			buildPhases = (
+				E43B5DCA1FE0548200353EE5 /* Sources */,
+				E43B5DCB1FE0548200353EE5 /* Frameworks */,
+				E43B5DCC1FE0548200353EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E43B5DD01FE0548200353EE5 /* PBXTargetDependency */,
+			);
+			name = WebSoketChatTests;
+			productName = WebSoketChatTests;
+			productReference = E43B5DCE1FE0548200353EE5 /* WebSoketChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E43B5DD81FE0548300353EE5 /* WebSoketChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43B5DE81FE0548300353EE5 /* Build configuration list for PBXNativeTarget "WebSoketChatUITests" */;
+			buildPhases = (
+				E43B5DD51FE0548300353EE5 /* Sources */,
+				E43B5DD61FE0548300353EE5 /* Frameworks */,
+				E43B5DD71FE0548300353EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E43B5DDB1FE0548300353EE5 /* PBXTargetDependency */,
+			);
+			name = WebSoketChatUITests;
+			productName = WebSoketChatUITests;
+			productReference = E43B5DD91FE0548300353EE5 /* WebSoketChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43B5DB21FE0548200353EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sultan Sultan";
+				TargetAttributes = {
+					E43B5DB91FE0548200353EE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E43B5DCD1FE0548200353EE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E43B5DB91FE0548200353EE5;
+					};
+					E43B5DD81FE0548300353EE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E43B5DB91FE0548200353EE5;
+					};
+				};
+			};
+			buildConfigurationList = E43B5DB51FE0548200353EE5 /* Build configuration list for PBXProject "WebSoketChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E43B5DB11FE0548200353EE5;
+			productRefGroup = E43B5DBB1FE0548200353EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E43B5DB91FE0548200353EE5 /* WebSoketChat */,
+				E43B5DCD1FE0548200353EE5 /* WebSoketChatTests */,
+				E43B5DD81FE0548300353EE5 /* WebSoketChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E43B5DB81FE0548200353EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43B5DC81FE0548200353EE5 /* LaunchScreen.storyboard in Resources */,
+				E43B5DC51FE0548200353EE5 /* Assets.xcassets in Resources */,
+				E43B5DC31FE0548200353EE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43B5DCC1FE0548200353EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43B5DD71FE0548300353EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43B5DB61FE0548200353EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43B5DC01FE0548200353EE5 /* ViewController.swift in Sources */,
+				E43B5DBE1FE0548200353EE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43B5DCA1FE0548200353EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43B5DD31FE0548300353EE5 /* WebSoketChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43B5DD51FE0548300353EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43B5DDE1FE0548300353EE5 /* WebSoketChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E43B5DD01FE0548200353EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E43B5DB91FE0548200353EE5 /* WebSoketChat */;
+			targetProxy = E43B5DCF1FE0548200353EE5 /* PBXContainerItemProxy */;
+		};
+		E43B5DDB1FE0548300353EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E43B5DB91FE0548200353EE5 /* WebSoketChat */;
+			targetProxy = E43B5DDA1FE0548300353EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E43B5DC11FE0548200353EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43B5DC21FE0548200353EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E43B5DC61FE0548200353EE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43B5DC71FE0548200353EE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E43B5DE01FE0548300353EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E43B5DE11FE0548300353EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E43B5DE31FE0548300353EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7AFS2ZVJA;
+				INFOPLIST_FILE = WebSoketChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraculi.WebSoketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E43B5DE41FE0548300353EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7AFS2ZVJA;
+				INFOPLIST_FILE = WebSoketChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraculi.WebSoketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E43B5DE61FE0548300353EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7AFS2ZVJA;
+				INFOPLIST_FILE = WebSoketChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraculi.WebSoketChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebSoketChat.app/WebSoketChat";
+			};
+			name = Debug;
+		};
+		E43B5DE71FE0548300353EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7AFS2ZVJA;
+				INFOPLIST_FILE = WebSoketChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraculi.WebSoketChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebSoketChat.app/WebSoketChat";
+			};
+			name = Release;
+		};
+		E43B5DE91FE0548300353EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7AFS2ZVJA;
+				INFOPLIST_FILE = WebSoketChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraculi.WebSoketChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebSoketChat;
+			};
+			name = Debug;
+		};
+		E43B5DEA1FE0548300353EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7AFS2ZVJA;
+				INFOPLIST_FILE = WebSoketChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraculi.WebSoketChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebSoketChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43B5DB51FE0548200353EE5 /* Build configuration list for PBXProject "WebSoketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43B5DE01FE0548300353EE5 /* Debug */,
+				E43B5DE11FE0548300353EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43B5DE21FE0548300353EE5 /* Build configuration list for PBXNativeTarget "WebSoketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43B5DE31FE0548300353EE5 /* Debug */,
+				E43B5DE41FE0548300353EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43B5DE51FE0548300353EE5 /* Build configuration list for PBXNativeTarget "WebSoketChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43B5DE61FE0548300353EE5 /* Debug */,
+				E43B5DE71FE0548300353EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43B5DE81FE0548300353EE5 /* Build configuration list for PBXNativeTarget "WebSoketChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43B5DE91FE0548300353EE5 /* Debug */,
+				E43B5DEA1FE0548300353EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43B5DB21FE0548200353EE5 /* Project object */;
+}
